@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/keijiban110"
+         reloadable="true" crossContext="true">
+    
+    <Resource name = "jdbc/jamyto2"
+removeAbandoned="true"
+removeAbandonedTimeout="60"
+logAbandoned="true"
+auth="Container"
+type="javax.sql.DataSource"
+maxActice="10"
+maxIdle="30"
+maxWait="10000"
+username="Mulder"
+password="TrustNo1"
+driverClassName="com.mysql.jdbc.Driver"
+url="jdbc:mysql://localhost:3306/jamyto2?autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=MS932"
+
+
+/>
+    
+</Context>
+
+
+
